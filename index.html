@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimalist CSS Framework</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <h1>William Curtiss</h1>
+    </header>
+    
+    <section>
+        <h2></h2>
+        <img src="https://media.licdn.com/dms/image/D5603AQFxkERjTu-I1g/profile-displayphoto-shrink_400_400/0/1710376029875?e=1715817600&v=beta&t=2EOtUUHEDjcRKsfKXDoUFF2WQ1MbWh0m7lMepod56gs" alt="Example Image" class="img-variation">
+    </section>
+
+   
+    <main>
+        <section>
+            <h3>About</h3>
+            <p>Senior at Chapman University pursuing a Bachelor's Degree in Data Science with a themed inquiry in Africana Studies.
+                I am passionate about learning how we can use the many tools within Machine Learning, Artificial Intelligence, and Deep Learning to solve complex problems. 
+                I play on the men's lacrosse team at Chapman. In my free time, I like to play and compose music, exercise, and listen to audio books.</p>
+            <h2>Links</h2>
+            <a href="www.linkedin.com/in/william-curtiss-525012260">LinkedIn</a><br>
+            <a href="https://github.com/WCurtiss2023">GitHub</a>
+            <h3>Projects</h3>
+            <div class="flex-container">
+                <div class="flex-item">NATURAL LANGUAGE PROCESSING - LONG SHORT-TERM MEMORY NETWORK - NURSERY RHYME GENERATION<br> -Developed a NLP model using LSTM neural networks to generate sequences of tokenized words based on a corpus of nursery
+                    rhymes.<br>-Preprocessed and cleaned text data by removing punctuation and converting words to lowercase for better model training.<br>
+                    -Created a word-to-index mapping to represent unique words in the nursery rhymes, facilitating sequence generation and
+                    model interpretation.<br>
+                    -Utilized Keras deep learning library to build an LSTM model with 100 units, incorporating a dense layer with softmax activation
+                    for word prediction.</div>
+                <div class="flex-item">MySQL SERVER APPLICATION - E-COMMERCE SYSTEM<br> Developed a python script using the ‘mysql.connector’ library to interact with MySQL database for an e-commerce system.<br>
+                    -Implemented functions to retrieve and display specific information from the database, such as products out of stock, total
+                    orders by customer, details of the most expensive product in each order, products that have never been ordered, and total
+                    revenue by each supplier.<br>
+                    -Utilized SQL queries to extract relevant data from multiple tables, demonstrating strong database querying skills.<br>
+                    -Created a user-friendly menu system allowing users to choose specific actions, enhancing the overall usability of the script.</div>
+                <div class="flex-item">FEED FORWARD NEURAL NETWORK - MULTI CLASS CLASSIFICATION - FORMULA ONE OUTCOMES<br>-Developed a feed forward neural network using TensorFlow and Keras to predict the outcome of Formula One races based on
+                    various features.<br>
+                    -Preprocessed the dataset by transforming the target variable and features into one-hot encoded format for multi class
+                    classification.<br>
+                    -Utilized standard machine learning practices, including train-test splitting and feature scaling, to prepare the data for model
+                    training.<br>
+                    -Designed a neural network architecture with multiple hidden layers, incorporating batch normalization and dropout layers for
+                    improved regularization and generalization.
+                    -Implemented the model using TensorFlow’s Keras API, optimizing it with the Adam optimizer and using categorical
+                    crossentropy as the loss function for multi class classification.</div>
+              </div>
+            <h3>Professional Experience</h3>
+            <div class="flex-container">
+                <div class="flex-item">
+                    Financial Analyst Internship<br>Company: FORENSIC ANALYTICAL CONSULTING SERVICES<br>-Collaborated with CFO to develop profitability dashboard with data queried using SQL, and dashboard created using
+                    HTML and CSS, used to present relevant findings to shareholders and officers.<br>
+                    -Designed profitability dashboard to exhibit profitability margins across several types of contract types and revenue
+                    sizes as well as other key variables and Implemented machine learning models like linear regression to display which
+                    variables had the most significance on margins.
+                </div>
+            </div>
+            <h3>Contact</h3>
+            <form id="contactForm">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <button type="submit">Send</button>
+            </form>
+        
+            <script src="contact.js"></script> 
+        </section>
+
+        
+    </main>
+</div>
+</body>
+</html>
