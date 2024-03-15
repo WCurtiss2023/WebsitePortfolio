@@ -66,7 +66,12 @@ button.error {
 
 /* Links */
 a {
-    color: var(rgb(0, 110, 255));
+    color: #ea7373;
+    text-decoration: none;
+}
+
+.links {
+    color: var(rgb(249, 0, 0));
     text-decoration: none;
 }
 
@@ -109,6 +114,7 @@ form {
   
   .flex-item {
     /* Define styles for flex items */
+    max-width: 600px;
     padding: 10px;
     border: 1px solid #ccc;
     color:rgb(255, 77, 0)
